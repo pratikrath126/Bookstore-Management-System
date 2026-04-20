@@ -1,0 +1,19 @@
+# Backend
+bookstore-backend/target/
+bookstore-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+bookstore-frontend/node_modules/
+bookstore-frontend/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+*.env
