@@ -52,19 +52,13 @@ Before running this project, ensure you have:
 - **Java 17** (JDK 17 or higher)
 - **Node.js 18+** and npm
 - **MySQL 8.x** (running on port 3306)
-- **Maven 3.9+** (or use the included Maven wrapper `./mvnw`)
 
 ## 🚀 How to Run
 
 ### Step 1: Setup MySQL Database
 
-```bash
-# Login to MySQL
-mysql -u root -p
-
-# Create the database
+```sql
 CREATE DATABASE bookstore_db;
-EXIT;
 ```
 
 ### Step 2: Configure Database Credentials
@@ -106,6 +100,23 @@ Navigate to **http://localhost:5173** to use the application.
 
 > Sample data (books, categories) is automatically seeded on first run.
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Register Page](screenshots/register.png)
+
+### Book Details
+![Book Details](screenshots/bookdetails.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin.png)
+
 ## 📌 Features
 
 ### Public (No Login Required)
@@ -144,7 +155,3 @@ Navigate to **http://localhost:5173** to use the application.
 | GET    | /api/orders/all         | All orders           | Admin      |
 
 API Documentation (Swagger): **http://localhost:8080/swagger-ui.html**
-
-## 📝 License
-
-This project is submitted as part of the Full Stack Development with Java capstone project.

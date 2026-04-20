@@ -17,3 +17,8 @@ Thumbs.db
 
 # Environment
 *.env
+
+# Non-project files
+Capstone_Project_Guidelines*.pdf
+FSD Java_Project Helper*.pdf
+Project_Documentation.html
